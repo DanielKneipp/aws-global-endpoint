@@ -1,0 +1,4 @@
+[submodule "aws-route53-global-dns"]
+	path = aws-route53-global-dns
+	url = https://github.com/DanielKneipp/aws-route53-global-dns.git
+	branch = global_accelerator

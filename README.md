@@ -17,9 +17,7 @@ When a web client uses this endpoint, its traffic is sent to the nearest point o
 GA is used by several [customers](https://aws.amazon.com/global-accelerator/customers/). Let's take [Okta](https://www.okta.com/) as an example. Okta follows a multi-tenant architecture and has subdomains for their customers, and you can see for LinkedIn the GA endpoint available as a `CNAME` record as shown in the image below
 
 <p align="center">
-
-<img src="docs/dig-okta.png" alt="Dig okta" width="500"/>
-
+  <img src="docs/dig-okta.png" alt="Dig okta" width="500"/>
 </p>
 
 > Feel free to test it on other [Okta customers](https://www.okta.com/customers/) such as Zoom for example, to see a different GA endpoint.
